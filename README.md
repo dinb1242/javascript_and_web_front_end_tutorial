@@ -8,4 +8,4 @@
 - Lecture 4. HTML 파일에서 각 element를 생성, 추가 및 삭제하는 방법에 대해 알아보기. (appendChild 등)
 - Lecture 5. SetTimeout과 SetInterval을 활용한 Callback 함수의 호출에 대해 알아보기.
 - Lecture 6. onclick, onchange, onkeydown 등을 이용한 다양한 event를 제어해보기.
-- Lecture ?. ...
+- Lecture 7. addEventListener와 태그 내에서 event를 호출하는 방법, property를 통해 이벤트를 호출하는 방법에 대해 알아보기.
