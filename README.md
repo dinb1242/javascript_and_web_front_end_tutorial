@@ -11,3 +11,7 @@
 - Lecture 7. addEventListener와 태그 내에서 event를 호출하는 방법, property를 통해 이벤트를 호출하는 방법에 대해 알아보기.
 - Lecture 8. Ajax를 통해 데이터를 읽어오는 방법에 대해 알아보고, onreadystatuschange 이벤트 함수를 통해 불러온 데이터 출력해보기.
 - Lecture 9. JSON에 대해 알아보고, Ajax를 통해 JSON 파일을 불러온 후, Parsing하고 이를 HTML에 출력해보기. 
+
+## Todo
+- 1. async, defer에 대해 알아보기.
+- 2. onload 등의 event handler에 대해서 알아보기. 
