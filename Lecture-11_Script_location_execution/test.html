@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test003.css">
+    <script>
+        function check(n){
+            var sum = 0;
+            for(var i = 0; i < 200000000; i++){
+                sum += n;
+            }
+            alert(n);
+            console.log(n);
+            console.log(document.getElementById("songwriter"));
+            console.log(document.getElementsByClassName("lyrics"));
+        }
+        check(1);
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        check(2);
+    </script>
+    <h1>애국가</h1>
+
+    <p id="songwriter">작곡 : 안익태</p>
+    <p id="lyricist" style="color:red;">작사 : 이상</p>
+    <script>
+        check(3);
+    </script>
+    <h2>1절</h2>
+    <p class="lyrics">
+        동해물과 백두산이 .... <br>
+        길이 보전하세
+    </p>
+    <script>
+        check(4);
+    </script>
+    <h2>2절</h2>
+    <p class="lyrics">
+        남산 위에 저 ... <br>
+        길이 보전하세
+    </p>
+    <script>
+        check(5);
+    </script>
+
+    <!-- 일반적으로 스크립트를 사용하기 위해서는 
+    문서의 하단에 등록하는 것이 성능 향상에 도움이 됨. -->
+
+</body>
+</html>
