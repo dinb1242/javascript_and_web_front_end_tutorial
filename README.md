@@ -9,3 +9,5 @@
 - Lecture 5. SetTimeout과 SetInterval을 활용한 Callback 함수의 호출에 대해 알아보기.
 - Lecture 6. onclick, onchange, onkeydown 등을 이용한 다양한 event를 제어해보기.
 - Lecture 7. addEventListener와 태그 내에서 event를 호출하는 방법, property를 통해 이벤트를 호출하는 방법에 대해 알아보기.
+- Lecture 8. Ajax를 통해 데이터를 읽어오는 방법에 대해 알아보고, onreadystatuschange 이벤트 함수를 통해 불러온 데이터 출력해보기.
+- Lecture 9. JSON에 대해 알아보고, Ajax를 통해 JSON 파일을 불러온 후, Parsing하고 이를 HTML에 출력해보기. 
