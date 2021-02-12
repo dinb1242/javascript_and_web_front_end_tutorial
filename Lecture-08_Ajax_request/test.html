@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script>
+        // 로컬 파일을 읽어오는 것은 어려움.
+        // 웹 서버를 통해 http로 받아와야함.
+        var req = new XMLHttpRequest();
+        req.onreadystatechange = function a(){
+            console.log(this.readyState, this.status);
+            if(this.readyState == 4 && this.status == 200){
+                console.log(req.response);
+            } else if(this.readyState == 4){
+                console.log(req.response);
+            }
+        }
+        // req.open("GET", "./test.txt");
+        req.open("GET", "./test.txt");
+        req.send();
+        // 비동기이므로 바로 보이지 않음.
+        // 이벤트 핸들러를 활용하여 접근하는 것이 옳음.
+        console.log(req.response);
+
+        // State가 0은 open 메소드 전
+        // 1은 open 메소드 후
+//         0 	open 메소드 호출 전
+        // 1 	open 메소드 호출 후, send 메소드 호출 전
+        // 2 	보낸 요청에 대해 응답 헤더가 수신된 후
+        // 3 	응답의 바디 부분이 수신중일 때
+        // 4 	모든 응답이 수신되었을 때
+        console.log(req.readyState);
+        
+    </script>
+    
+    <title>Document</title>
+</head>
+<body>
+    this is a ajax test page.
+</body>
+</html>
